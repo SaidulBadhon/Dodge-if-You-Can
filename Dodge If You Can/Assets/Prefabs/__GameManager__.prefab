@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011581565476}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011581565476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012972428886}
+  - component: {fileID: 114000012421488324}
+  - component: {fileID: 114000013471555504}
+  - component: {fileID: 114000010932495032}
+  - component: {fileID: 114483852703200942}
+  - component: {fileID: 114774588809719984}
+  - component: {fileID: 114256775728663874}
+  m_Layer: 0
+  m_Name: __GameManager__
+  m_TagString: Game Menager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012972428886
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011581565476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.3746312, y: 1.039901, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010932495032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011581565476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dca2e7e48019849812a5570ac3ab78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  gold: 0
+  gem: 0
+--- !u!114 &114000012421488324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011581565476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f963f0900d7db44925b6e61dab675e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  mobileControler: {fileID: 0}
+  mainCamera: {fileID: 0}
+  mySkin: {fileID: 11400000, guid: 35435a011121f9e41b29e615f30cd4d5, type: 2}
+  paused: 0
+  playerHealth: 0
+--- !u!114 &114000013471555504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011581565476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438930157915ad54db007b0f19da769b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paused: 0
+  menuButton: {fileID: 2800000, guid: bb1fa3dab1d1932458d0d2680b1b0471, type: 3}
+  Logo: {fileID: 2800000, guid: cb3cd5122748ef541bf88a847039f88b, type: 3}
+  DifWindowRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  WindowName: Menu
+--- !u!114 &114256775728663874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011581565476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0a4ad703877784fb89ae08822be987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allObjComplete: 0
+  haveToKillAllEnemys: 1
+  haveToGetAllGolds: 1
+  haveToGetScore: 1
+  goldNeeded: 6
+  scoreNeeded: 800
+--- !u!114 &114483852703200942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011581565476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acbe60775c3fd284db38e70dd472686a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114774588809719984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011581565476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42494fe9166aa06458c7d78e80591f7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: Hero
+  score: 0
+  health: 0
+  playerPosition: {x: 0, y: 0, z: 0}

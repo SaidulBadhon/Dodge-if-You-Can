@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b0fc6551873b87c4eb396ce9b036fd19
+timeCreated: 1471160986
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - menuButton: {fileID: 2800000, guid: bb1fa3dab1d1932458d0d2680b1b0471, type: 3}
+  - Logo: {fileID: 2800000, guid: cb3cd5122748ef541bf88a847039f88b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
